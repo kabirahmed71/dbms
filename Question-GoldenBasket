@@ -1,0 +1,7 @@
+database name:( GoldenBasket)
+table-1: Customers(Customer_Id(varchar(10) pk start Cu,name varchar(20),phone_number varchar(15),gender varchar(1) M or F)
+table-2: Products(Product_id varchar(10) pk starts with pr,product_name varchar(20),price float,quantity_available int)
+table-3: Purchases(Purchases_id int pk,customer_id varchar(6) fk,product_id varcahr(6) fk,enrollment_date date and time)
+1.insert 3 entries in each table
+2.update the phone number of a customer
+3.apply trigger to update the quantity_available field of the table products whenevar a product is purchased full code deo
